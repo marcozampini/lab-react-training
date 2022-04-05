@@ -27,8 +27,8 @@ const App = () => {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
 
-      <Greetings lang="de" children="Ludwig" />
-      <Greetings lang="fr" children="François" />
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
 
       <Random min={1} max={6} />
       <Random min={1} max={100} />
