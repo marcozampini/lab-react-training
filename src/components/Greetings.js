@@ -13,6 +13,8 @@ const Greetings = (props) => {
     case 'fr':
       greet = 'Salut';
       break;
+    default:
+      greet = 'Hello';
   }
   return (
     <div>
