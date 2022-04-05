@@ -1,5 +1,7 @@
 import './App.css';
 import IdCard from './components/IdCard';
+import Greetings from './components/Greetings';
+
 const App = () => {
   return (
     <div className="App">
@@ -20,6 +22,9 @@ const App = () => {
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+
+      <Greetings lang="de" children="Ludwig" />
+      <Greetings lang="fr" children="François" />
     </div>
   );
 };
