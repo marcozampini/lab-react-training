@@ -43,3 +43,36 @@
 .card-info {
   text-align: left;
 }
+.credit-card-list {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.credit-card {
+  width: 264px;
+  height: 138px;
+  border-radius: 10px;
+  text-align: left;
+}
+.credit-card .type {
+  text-align: right;
+  margin: 0.5rem 1rem 1rem;
+}
+
+.credit-card .number {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.credit-card .expiration {
+  font-size: 0.8rem;
+  margin: 0 1rem;
+}
+.credit-card .bank {
+  font-size: 0.8rem;
+}
+.credit-card .owner {
+  font-size: 0.8rem;
+  margin: 0 1rem;
+}
